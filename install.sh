@@ -16,9 +16,11 @@ fi
 
 set -x
 
-install -m 0640 vimrc $HOME/.vimrc
-install -m 0640 vimcolors $HOME/.vimcolors
-mkdir -p -m 0750 $HOME/.vim/after/syntax
-install -m 0640 vim/after/syntax/cpp.vim $HOME/.vim/after/syntax/
+install -m 0644 vimrc $HOME/.vimrc
+install -m 0644 vimcolors $HOME/.vimcolors
+mkdir -p -m 0755 $HOME/.vim/ftplugin
+install -m 0644 vim/ftplugin/python.vim $HOME/.vim/ftplugin/
+mkdir -p -m 0755 $HOME/.vim/after/syntax
+install -m 0644 vim/after/syntax/cpp.vim $HOME/.vim/after/syntax/
 
 # EOB

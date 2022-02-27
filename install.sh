@@ -17,7 +17,10 @@ fi
 set -x
 
 install -m 0644 vimrc $HOME/.vimrc
-install -m 0644 vimcolors $HOME/.vimcolors
+install -m 0644 vimcolors-dark $HOME/.vimcolors-dark
+install -m 0644 vimcolors-light $HOME/.vimcolors-light
+rm -f $HOME/.vimcolors 2>/dev/null
+ln -s $HOME/.vimcolors-dark $HOME/.vimcolors
 mkdir -p -m 0755 $HOME/.vim/ftplugin
 install -m 0644 vim/ftplugin/python.vim $HOME/.vim/ftplugin/
 mkdir -p -m 0755 $HOME/.vim/after/syntax

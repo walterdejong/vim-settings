@@ -1,5 +1,7 @@
 " ~/.vimrc
 "
+source $VIMRUNTIME/defaults.vim
+
 let loaded_matchparen = 1
 set noshowmatch
 set autoindent
@@ -37,12 +39,15 @@ set guicursor+=a:blinkon0
 source ~/.vimcolors
 
 " ruler at 80 chars
-autocmd FileType md autocmd match OverLength /\%79v.\+/
+autocmd FileType md match OverLength /\%79v.\+/
 
 " strip lines just before saving
 " (this is NOT nice for markdown texts)
 " autocmd BufWritePre * :%s/\s\+$//e
-autocmd FileType c,cpp,h,py,txt autocmd BufWritePre <buffer> :%s/\s\+$//e
+autocmd FileType c,cpp,h,py,txt autocmd BufWritePre * :%s/\s\+$//e
+
+autocmd FileType c,cpp,h,py setlocal number
+autocmd FileType c,cpp,h,py setlocal foldcolumn=4
 
 " enable Ctrl-Q and Ctrl-S
 silent !stty -ixon > /dev/null 2>/dev/null
@@ -87,15 +92,15 @@ nnoremap } :bnext<CR>
 " switch to really previous buffer
 nnoremap <tab> :b#<CR>
 " same thing
-nnoremap ^ :b#<CR>
+" nnoremap ^ :b#<CR>
 
 " new window:    Ctrl-W n
 " switch window: Ctrl-W w
 " close window:  Ctrl-W c
 
 " build and run keys
-autocmd Filetype c,cpp  nnoremap <C-B> :update<Bar>make<CR>:cw<CR>
-autocmd Filetype c,cpp  nnoremap <C-R> :update<Bar>make test<CR>
+autocmd Filetype c,cpp nnoremap <C-B> :update<Bar>make<CR>:cw<CR>
+autocmd Filetype c,cpp nnoremap <C-R> :update<Bar>make test<CR>
 
 " pylint and run python
 autocmd Filetype python let $LC_ALL = 'en_US.UTF-8'
@@ -131,5 +136,14 @@ endfunction
 
 " by default, hide gui menus
 set guioptions=i
+
+
+" fix Home/End in WSL terminal
+map <ESC>[H <Home>
+imap <ESC>[H <Home>
+cmap <ESC>[H <Home>
+map <ESC>[F <End>
+imap <ESC>[F <End>
+cmap <ESC>[F <End>
 
 " EOB

@@ -33,7 +33,7 @@ hi Label		ctermfg=White
 hi cError		ctermfg=White ctermbg=Red
 hi Error		ctermfg=White ctermbg=Red
 
-hi LineNr		ctermfg=Blue
+hi LineNr		ctermfg=Yellow
 hi OverLength	ctermbg=red ctermfg=white
 
 " html codes are also used a lot in markdown syntax highlighting

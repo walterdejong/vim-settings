@@ -13,25 +13,41 @@ set guicursor+=a:blinkon0
 hi Cursor       ctermbg=Red ctermfg=Black       guibg=Red guifg=Black
 hi iCursor      ctermbg=Green ctermfg=Black     guibg=Green guifg=Black
 
-hi Ignore		ctermfg=Black
-hi Comment		ctermfg=Green gui=italic
-hi cString		ctermfg=Blue
-hi String		ctermfg=Blue
-hi cCharacter	ctermfg=Blue
-hi cSpecialCharacter	ctermfg=Cyan
-hi Type			ctermfg=Red
-hi Special		ctermfg=Green
-hi cConstant	ctermfg=Black
-hi Boolean		ctermfg=Red
-hi PreProc		ctermfg=Red
-hi Integer		ctermfg=Green
-hi Identifier	ctermfg=Black
-hi Statement	ctermfg=Black
-hi Number		ctermfg=Green
-hi Float		ctermfg=Green
-hi Label		ctermfg=Black
-hi cError		ctermfg=Black ctermbg=Red
-hi Error		ctermfg=Black ctermbg=Red
+hi Comment      ctermfg=Green gui=italic
+hi Constant     ctermfg=Black
+hi String       ctermfg=Blue
+hi Character    ctermfg=Blue
+hi Number       ctermfg=Green
+hi Float        ctermfg=Green
+hi Boolean      ctermfg=Red
+hi Identifier   ctermfg=Black
+hi Function     ctermfg=Black
+hi Statement    ctermfg=Black
+hi Conditional  ctermfg=Red
+hi Repeat       ctermfg=Red
+hi Label        ctermfg=Red
+hi Operator     ctermfg=Black
+hi Keyword      ctermfg=Red
+hi Exception    ctermfg=Red
+hi PreProc      ctermfg=Red
+hi Include      ctermfg=Red
+hi Define       ctermfg=Red
+hi Macro        ctermfg=Red
+hi PreCondit    ctermfg=Red
+hi Type         ctermfg=Red
+hi StorageClass ctermfg=Red
+hi Structure    ctermfg=Red
+hi Typedef      ctermfg=Red
+hi Special      ctermfg=Cyan
+hi SpecialChar  ctermfg=Cyan
+hi Tag          ctermfg=Cyan
+hi Delimiter    ctermfg=Black
+hi SpecialComment   ctermfg=Green
+hi Debug        ctermfg=Black
+hi Underlined   ctermfg=Blue
+hi Ignore       ctermfg=Black
+hi Error        ctermfg=White ctermbg=Red
+hi Todo         ctermfg=Black ctermbg=Cyan
 
 hi LineNr		ctermfg=Cyan
 hi OverLength	ctermbg=Red ctermfg=Black

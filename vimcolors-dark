@@ -8,6 +8,9 @@ set guicursor=n-v-c:block-Cursor
 set guicursor+=i:block-iCursor
 set guicursor+=a:blinkon0
 
+hi clear
+hi Normal		ctermfg=Grey
+
 " sadly this doesn't work for OSX Terminal
 " nor does it for MacVim
 hi Cursor       ctermbg=Red ctermfg=White     guibg=Red guifg=White

@@ -24,8 +24,6 @@ syn keyword cType vec2
 syn keyword cType vec3
 syn keyword cType vec4
 syn keyword cType mat4
-syn keyword cType rect
-syn keyword cType irect
 syn keyword cType FILE
 syn keyword cType time_t
 syn keyword cType timeval

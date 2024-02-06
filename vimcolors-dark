@@ -16,7 +16,7 @@ hi Normal		ctermfg=Grey
 hi Cursor       ctermbg=Red ctermfg=White     guibg=Red guifg=White
 hi iCursor      ctermbg=Green ctermfg=White   guibg=Green guifg=White
 
-hi Comment      ctermfg=Green gui=italic
+hi Comment      ctermfg=darkGreen gui=italic
 hi Constant     ctermfg=Yellow
 hi String       ctermfg=Cyan
 hi Character    ctermfg=Cyan

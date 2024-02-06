@@ -9,7 +9,7 @@ set guicursor+=i:block-iCursor
 set guicursor+=a:blinkon0
 
 hi clear
-hi Normal		ctermfg=Yellow    ctermbg=Blue
+hi Normal		ctermfg=Yellow    ctermbg=darkBlue
 
 " sadly this doesn't work for OSX Terminal
 " nor does it for MacVim
@@ -94,11 +94,11 @@ hi objcScopeDecl	ctermfg=Cyan
 " hi Visual       term=reverse cterm=reverse guibg=Grey
 hi Visual       ctermfg=Black ctermbg=Grey
 hi Pmenu        ctermfg=Black ctermbg=Cyan
-hi PmenuSel     ctermfg=White ctermbg=Blue
+hi PmenuSel     ctermfg=White ctermbg=darkBlue
 hi Search       ctermfg=Blue ctermbg=Grey
 hi Directory    ctermfg=Yellow
 " foldcolumn is the left margin
-hi FoldColumn ctermfg=Black ctermbg=Blue
+hi FoldColumn ctermfg=Black ctermbg=darkBlue
 hi StatusLine    ctermfg=Grey ctermbg=Black
 
 " ruler at 80 chars

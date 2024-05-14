@@ -19,6 +19,7 @@ set -x
 install -m 0644 vimrc $HOME/.vimrc
 install -m 0644 vimcolors-dark $HOME/.vimcolors-dark
 install -m 0644 vimcolors-light $HOME/.vimcolors-light
+install -m 0644 vimcolors-light256 $HOME/.vimcolors-light256
 rm -f $HOME/.vimcolors 2>/dev/null
 ln -s $HOME/.vimcolors-dark $HOME/.vimcolors
 mkdir -p -m 0755 $HOME/.vim/ftplugin

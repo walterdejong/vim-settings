@@ -20,42 +20,42 @@ hi iCursor      ctermbg=40 ctermfg=Black     guibg=Green guifg=Black
 
 hi Comment      ctermfg=22
 hi Constant     ctermfg=0
-hi String       ctermfg=20
-hi Character    ctermfg=20
+hi String       ctermfg=19
+hi Character    ctermfg=19
 hi Number       ctermfg=22
-hi Boolean      ctermfg=124
+hi Boolean      ctermfg=52
 hi Float        ctermfg=22
 
 hi Identifier   ctermfg=0
 hi Function     ctermfg=0
 
 hi Statement    ctermfg=0
-hi Conditional  ctermfg=124
-hi Repeat       ctermfg=124
-hi Label        ctermfg=124
+hi Conditional  ctermfg=52
+hi Repeat       ctermfg=52
+hi Label        ctermfg=52
 hi Operator     ctermfg=0
-hi Keyword      ctermfg=124
-hi Exception    ctermfg=124
+hi Keyword      ctermfg=52
+hi Exception    ctermfg=52
 
-hi PreProc      ctermfg=124
-hi Include      ctermfg=124
+hi PreProc      ctermfg=52
+hi Include      ctermfg=52
 hi Define       ctermfg=0
 hi Macro        ctermfg=0
-hi PreCondit    ctermfg=124
+hi PreCondit    ctermfg=52
 
-hi Type         ctermfg=124
-hi StorageClass ctermfg=124
-hi Structure    ctermfg=124
-hi Typedef      ctermfg=124
+hi Type         ctermfg=52
+hi StorageClass ctermfg=52
+hi Structure    ctermfg=52
+hi Typedef      ctermfg=52
 
-hi Special      ctermfg=20
-hi SpecialChar  ctermfg=20
-hi Tag          ctermfg=15 ctermbg=20
+hi Special      ctermfg=19
+hi SpecialChar  ctermfg=19
+hi Tag          ctermfg=15 ctermbg=19
 hi Delimiter    ctermfg=0
 hi SpecialComment  ctermfg=15 ctermbg=22
 hi Debug         ctermfg=22
 
-hi Underlined   ctermfg=20
+hi Underlined   ctermfg=19
 hi Ignore       ctermfg=240
 hi Error        ctermfg=15 ctermbg=160
 hi Todo         ctermfg=0 ctermbg=45
@@ -94,7 +94,7 @@ hi markdownBlockquote		ctermfg=Green
 hi markdownFootnote			ctermfg=Green
 hi markdownFootnoteDefinition	ctermfg=Green
 
-hi Visual       ctermfg=Black ctermbg=81
+hi Visual       ctermfg=Black ctermbg=117
 
 hi Pmenu        ctermfg=Black ctermbg=Cyan
 hi PmenuSel     ctermfg=White ctermbg=Blue

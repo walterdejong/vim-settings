@@ -29,7 +29,7 @@ hi Float        ctermfg=22
 hi Identifier   ctermfg=0
 hi Function     ctermfg=0
 
-hi Statement    ctermfg=0
+hi Statement    ctermfg=52
 hi Conditional  ctermfg=52
 hi Repeat       ctermfg=52
 hi Label        ctermfg=52

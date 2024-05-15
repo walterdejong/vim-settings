@@ -22,8 +22,13 @@ install -m 0644 vimcolors-light $HOME/.vimcolors-light
 install -m 0644 vimcolors-light256 $HOME/.vimcolors-light256
 rm -f $HOME/.vimcolors 2>/dev/null
 ln -s $HOME/.vimcolors-dark $HOME/.vimcolors
+mkdir -p -m 0755 $HOME/.vim/ftdetect
+install -m 0644 vim/ftdetect/rust.vim $HOME/.vim/ftdetect/
 mkdir -p -m 0755 $HOME/.vim/ftplugin
 install -m 0644 vim/ftplugin/python.vim $HOME/.vim/ftplugin/
+mkdir -p -m 0755 $HOME/.vim/syntax
+install -m 0644 vim/syntax/python.vim $HOME/.vim/syntax/
+install -m 0644 vim/syntax/rust.vim $HOME/.vim/syntax/
 mkdir -p -m 0755 $HOME/.vim/after/syntax
 install -m 0644 vim/after/syntax/cpp.vim $HOME/.vim/after/syntax/
 

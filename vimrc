@@ -7,6 +7,7 @@ set noshowmatch
 set autoindent
 set smartindent
 set tabstop=4
+set shiftwidth=4
 set ruler
 set incsearch
 set noerrorbells

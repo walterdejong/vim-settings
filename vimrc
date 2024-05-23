@@ -13,6 +13,7 @@ set incsearch
 set noerrorbells
 set novisualbell
 set t_vb=
+set mouse=
 syntax enable
 filetype plugin on
 set nobackup

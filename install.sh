@@ -20,8 +20,13 @@ install -m 0644 vimrc $HOME/.vimrc
 install -m 0644 vimcolors-dark $HOME/.vimcolors-dark
 install -m 0644 vimcolors-light $HOME/.vimcolors-light
 install -m 0644 vimcolors-light256 $HOME/.vimcolors-light256
-rm -f $HOME/.vimcolors 2>/dev/null
-ln -s $HOME/.vimcolors-dark $HOME/.vimcolors
+install -m 0644 vimcolors-dark256 $HOME/.vimcolors-dark256
+#rm -f $HOME/.vimcolors 2>/dev/null
+#ln -s $HOME/.vimcolors-dark $HOME/.vimcolors
+if [ ! -e $HOME/.vimcolors ]
+then
+	ln -s .vimcolors-light256 $HOME/.vimcolors
+fi
 mkdir -p -m 0755 $HOME/.vim/ftdetect
 install -m 0644 vim/ftdetect/rust.vim $HOME/.vim/ftdetect/
 mkdir -p -m 0755 $HOME/.vim/ftplugin

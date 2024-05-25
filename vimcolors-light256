@@ -11,6 +11,7 @@ set guicursor+=a:blinkon0
 set t_Co=256
 
 hi clear
+"hi Normal      ctermfg=Black ctermbg=White
 hi Normal      ctermfg=Black
 
 " sadly this doesn't work for OSX Terminal

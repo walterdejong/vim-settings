@@ -11,7 +11,7 @@ set guicursor+=a:blinkon0
 set t_Co=256
 
 hi clear
-hi Normal      ctermfg=7
+hi Normal      ctermfg=7 ctermbg=Black
 
 " sadly this doesn't work for OSX Terminal
 " nor does it for MacVim

@@ -11,7 +11,7 @@ set guicursor+=a:blinkon0
 set t_Co=256
 
 hi clear
-hi Normal      ctermfg=7 ctermbg=Black
+hi Normal      ctermfg=251 ctermbg=Black
 
 " sadly this doesn't work for OSX Terminal
 " nor does it for MacVim
@@ -22,31 +22,31 @@ hi Comment      ctermfg=34
 hi Constant     ctermfg=226
 hi String       ctermfg=45
 hi Character    ctermfg=45
-hi Number       ctermfg=255
+hi Number       ctermfg=White
 hi Boolean      ctermfg=226
-hi Float        ctermfg=255
+hi Float        ctermfg=White
 
 hi Identifier   ctermfg=7
 hi Function     ctermfg=7
 
-hi Statement    ctermfg=255
-hi Conditional  ctermfg=255
-hi Repeat       ctermfg=255
-hi Label        ctermfg=255
-hi Operator     ctermfg=255
-hi Keyword      ctermfg=255
-hi Exception    ctermfg=255
+hi Statement    ctermfg=White
+hi Conditional  ctermfg=White
+hi Repeat       ctermfg=White
+hi Label        ctermfg=White
+hi Operator     ctermfg=White
+hi Keyword      ctermfg=White
+hi Exception    ctermfg=White
 
 hi PreProc      ctermfg=226
-hi Include      ctermfg=255
+hi Include      ctermfg=White
 hi Define       ctermfg=226
 hi Macro        ctermfg=226
-hi PreCondit    ctermfg=255
+hi PreCondit    ctermfg=White
 
-hi Type         ctermfg=255
-hi StorageClass ctermfg=255
-hi Structure    ctermfg=255
-hi Typedef      ctermfg=255
+hi Type         ctermfg=White
+hi StorageClass ctermfg=White
+hi Structure    ctermfg=White
+hi Typedef      ctermfg=White
 
 hi Special      ctermfg=45
 hi SpecialChar  ctermfg=45

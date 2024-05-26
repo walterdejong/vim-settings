@@ -64,35 +64,35 @@ hi LineNr		ctermfg=32
 hi OverLength	ctermbg=Red ctermfg=Black
 
 " html codes are also used a lot in markdown syntax highlighting
-hi htmlH1		ctermfg=Blue
-hi htmlH2		ctermfg=Green
-hi htmlH3		ctermfg=Red
-hi htmlH4		ctermfg=Magenta
-hi htmlH5		ctermfg=Cyan
+hi htmlH1		ctermfg=White
+hi htmlH2		ctermfg=226
+hi htmlH3		ctermfg=160
+hi htmlH4		ctermfg=165
+hi htmlH5		ctermfg=45
 " hi htmlH6		ctermfg=Red
-hi htmlLink		ctermfg=Blue
-hi htmlItalic	ctermfg=Green
-hi htmlBold		ctermfg=Red
-hi htmlBoldItalic	ctermfg=Green
+hi htmlLink		ctermfg=33
+hi htmlItalic	ctermfg=226
+hi htmlBold		ctermfg=White
+hi htmlBoldItalic	ctermfg=45
 
-hi markdownDelimiter		ctermfg=Black
-hi markdownRule				ctermfg=Black
-hi markdownHeadingRule		ctermfg=Black
-hi markdownUrl				ctermfg=Blue
-hi markdownUrlTitle			ctermfg=Blue
-hi markdownLink				ctermfg=Blue
-hi markdownLinkText			ctermfg=Blue
-hi markdownLinkTextDelimiter	ctermfg=Blue
-hi markdownLinkDelimiter	ctermfg=Blue
-hi markdownAutomaticLink	ctermfg=Blue
+hi markdownDelimiter		ctermfg=White
+hi markdownRule				ctermfg=White
+hi markdownHeadingRule		ctermfg=White
+hi markdownUrl				ctermfg=33
+hi markdownUrlTitle			ctermfg=33
+hi markdownLink				ctermfg=33
+hi markdownLinkText			ctermfg=33
+hi markdownLinkTextDelimiter	ctermfg=33
+hi markdownLinkDelimiter	ctermfg=33
+hi markdownAutomaticLink	ctermfg=33
 hi markdownId				ctermfg=Red
 hi markdownIdDelimiter		ctermfg=Red
 hi markdownIdDeclaration	ctermfg=Red
-hi markdownCode				ctermfg=Green
-hi markdownCodeDelimiter	ctermfg=Green
-hi markdownBlockquote		ctermfg=Green
-hi markdownFootnote			ctermfg=Green
-hi markdownFootnoteDefinition	ctermfg=Green
+hi markdownCode				ctermfg=34
+hi markdownCodeDelimiter	ctermfg=34
+hi markdownBlockquote		ctermfg=34
+hi markdownFootnote			ctermfg=34
+hi markdownFootnoteDefinition	ctermfg=34
 
 hi Visual       ctermfg=Black ctermbg=7
 
@@ -100,7 +100,7 @@ hi Pmenu        ctermfg=Black ctermbg=Cyan
 hi PmenuSel     ctermfg=White ctermbg=Blue
 hi Search       ctermfg=White ctermbg=Blue
 
-hi Directory    ctermfg=Red
+hi Directory    ctermfg=226
 " foldcolumn is the left margin
 hi FoldColumn ctermfg=7 ctermbg=Black
 

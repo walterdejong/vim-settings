@@ -61,7 +61,7 @@ hi Error        ctermfg=15 ctermbg=160
 hi Todo         ctermfg=0 ctermbg=226
 
 hi LineNr		ctermfg=32
-hi OverLength	ctermbg=Red ctermfg=Black
+hi OverLength	ctermbg=124 ctermfg=Black
 
 " html codes are also used a lot in markdown syntax highlighting
 hi htmlH1		ctermfg=White
@@ -105,6 +105,6 @@ hi Directory    ctermfg=226
 hi FoldColumn ctermfg=7 ctermbg=Black
 
 " ruler at 80 chars
-autocmd FileType md autocmd match OverLength /\%79v.\+/
+autocmd FileType md autocmd match OverLength /\%79v.*/
 
 " EOB

@@ -105,6 +105,6 @@ hi Directory    ctermfg=226
 hi FoldColumn ctermfg=7 ctermbg=Black
 
 " ruler at 80 chars
-autocmd FileType md autocmd match OverLength /\%79v.*/
+autocmd FileType md match OverLength /\%79v.*/
 
 " EOB

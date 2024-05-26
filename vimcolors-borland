@@ -102,6 +102,6 @@ hi FoldColumn ctermfg=Black ctermbg=darkBlue
 hi StatusLine    ctermfg=Grey ctermbg=Black
 
 " ruler at 80 chars
-autocmd FileType md match OverLength /\%79v.\+/
+autocmd FileType md match OverLength /\%79v.*/
 
 " EOB

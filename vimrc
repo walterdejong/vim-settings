@@ -51,6 +51,8 @@ autocmd FileType c,cpp,h,py,txt autocmd BufWritePre * :%s/\s\+$//e
 autocmd FileType c,cpp,h,py setlocal number
 autocmd FileType c,cpp,h,py setlocal foldcolumn=4
 
+autocmd FileType json,yaml,html,xml,md,sh,py setlocal expandtab
+
 " enable Ctrl-Q and Ctrl-S
 silent !stty -ixon > /dev/null 2>/dev/null
 

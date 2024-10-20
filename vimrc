@@ -1,6 +1,6 @@
 " ~/.vimrc
 "
-source $VIMRUNTIME/defaults.vim
+"source $VIMRUNTIME/defaults.vim
 
 let loaded_matchparen = 1
 set noshowmatch
@@ -36,9 +36,6 @@ autocmd VimLeave * silent !echo -ne "\033]112\x7"
 set guicursor=n-v-c:block-Cursor
 set guicursor+=i:block-iCursor
 set guicursor+=a:blinkon0
-
-" get colors
-source ~/.vimcolors
 
 " ruler at 80 chars
 autocmd FileType md match OverLength /\%79v.\+/
@@ -149,5 +146,17 @@ cmap <ESC>[H <Home>
 map <ESC>[F <End>
 imap <ESC>[F <End>
 cmap <ESC>[F <End>
+
+" vim-plug plugins
+source /home/walter/.vim/autoload/plug.vim
+call plug#begin()
+
+" Plug 'tpope/vim-sensible'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+" Plug 'tomasiser/vim-code-dark'
+
+call plug#end()
+
+colorscheme walter-light256
 
 " EOB

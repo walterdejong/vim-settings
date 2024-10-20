@@ -1,5 +1,7 @@
 " ~/.vimcolors-light256
 
+let g:colors_name = 'walter-light256'
+
 let &t_SI = "\<Esc>]12;green\x7"
 let &t_EI = "\<Esc>]12;red\x7"
 autocmd VimLeave * silent !echo -ne "\033]112\x7"

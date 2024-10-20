@@ -1,4 +1,6 @@
-" ~/.vimcolors-dark
+" ~/.vimcolors-borland
+
+let g:colors_name = 'walter-borland'
 
 let &t_SI = "\<Esc>]12;green\x7"
 let &t_EI = "\<Esc>]12;red\x7"
@@ -9,23 +11,23 @@ set guicursor+=i:block-iCursor
 set guicursor+=a:blinkon0
 
 hi clear
-hi Normal		ctermfg=Grey
+hi Normal		ctermfg=Yellow    ctermbg=darkBlue
 
 " sadly this doesn't work for OSX Terminal
 " nor does it for MacVim
 hi Cursor       ctermbg=Red ctermfg=White     guibg=Red guifg=White
 hi iCursor      ctermbg=Green ctermfg=White   guibg=Green guifg=White
 
-hi Comment      ctermfg=darkGreen gui=italic
-hi Constant     ctermfg=Yellow
+hi Comment      ctermfg=Grey gui=italic
+hi Constant     ctermfg=White
 hi String       ctermfg=Cyan
 hi Character    ctermfg=Cyan
 hi Number       ctermfg=White
 hi Float        ctermfg=White
 hi Boolean      ctermfg=White
-hi Identifier   ctermfg=Grey
-hi Function     ctermfg=Grey
-hi Statement    ctermfg=White
+hi Identifier   ctermfg=Yellow
+hi Function     ctermfg=Yellow
+hi Statement    ctermfg=Yellow
 hi Conditional  ctermfg=White
 hi Repeat       ctermfg=White
 hi Label        ctermfg=White
@@ -45,14 +47,14 @@ hi Special      ctermfg=Cyan
 hi SpecialChar  ctermfg=Cyan
 hi Tag          ctermfg=Cyan
 hi Delimiter    ctermfg=Grey
-hi SpecialComment   ctermfg=Green
+hi SpecialComment   ctermfg=Grey
 hi Debug        ctermfg=Grey
 hi Underlined   ctermfg=Cyan
 hi Ignore       ctermfg=Grey
 hi Error        ctermfg=White ctermbg=Red
 hi Todo         ctermfg=Black ctermbg=Yellow
 
-hi LineNr		ctermfg=Yellow
+hi LineNr		ctermfg=Grey
 hi OverLength	ctermbg=red ctermfg=white
 
 " html codes are also used a lot in markdown syntax highlighting
@@ -92,13 +94,14 @@ hi objcScopeDecl	ctermfg=Cyan
 
 " unfortunately, somebody screwed this up in the latest vim
 " hi Visual       term=reverse cterm=reverse guibg=Grey
-hi Visual       ctermfg=Black ctermbg=Grey cterm=bold
+hi Visual       ctermfg=Black ctermbg=Grey
 hi Pmenu        ctermfg=Black ctermbg=Cyan
-hi PmenuSel     ctermfg=White ctermbg=Blue
-hi Search       ctermfg=White ctermbg=Blue
+hi PmenuSel     ctermfg=White ctermbg=darkBlue
+hi Search       ctermfg=Blue ctermbg=Grey
 hi Directory    ctermfg=Yellow
 " foldcolumn is the left margin
-hi FoldColumn ctermfg=Black ctermbg=Black
+hi FoldColumn ctermfg=Black ctermbg=darkBlue
+hi StatusLine    ctermfg=Grey ctermbg=Black
 
 " ruler at 80 chars
 autocmd FileType md match OverLength /\%79v.*/

@@ -105,6 +105,7 @@ hi Search       ctermfg=214 ctermbg=Black
 hi Directory    ctermfg=214
 " foldcolumn is the left margin
 hi FoldColumn ctermfg=130 ctermbg=Black
+hi SignColumn ctermbg=Black
 
 " ruler at 80 chars
 " set ColorColumn=80

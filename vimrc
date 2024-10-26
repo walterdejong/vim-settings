@@ -151,12 +151,15 @@ cmap <ESC>[F <End>
 source /home/walter/.vim/autoload/plug.vim
 call plug#begin()
 
-" Plug 'tpope/vim-sensible'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-" Plug 'tomasiser/vim-code-dark'
+Plug 'williamboman/mason.nvim'
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
-colorscheme walter-light256
+source /home/walter/.config/nvim/init.lua
+
+colorscheme walter-amber
 
 " EOB

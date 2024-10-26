@@ -101,6 +101,7 @@ hi Search       ctermfg=White ctermbg=Blue
 hi Directory    ctermfg=Red
 " foldcolumn is the left margin
 hi FoldColumn ctermfg=Black ctermbg=White
+hi SignColumn ctermbg=White
 
 " ruler at 80 chars
 autocmd FileType md match OverLength /\%79v.*/

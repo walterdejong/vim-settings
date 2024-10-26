@@ -2,6 +2,8 @@
 "
 "source $VIMRUNTIME/defaults.vim
 
+set nocompatible
+
 let loaded_matchparen = 1
 set noshowmatch
 set autoindent
@@ -148,7 +150,7 @@ imap <ESC>[F <End>
 cmap <ESC>[F <End>
 
 " vim-plug plugins
-source /home/walter/.vim/autoload/plug.vim
+source ~/.vim/autoload/plug.vim
 call plug#begin()
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -158,8 +160,8 @@ Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
-source /home/walter/.config/nvim/init.lua
+source ~/.config/nvim/init.lua.vim
 
-colorscheme walter-amber
+colorscheme walter-light256
 
 " EOB

@@ -1,3 +1,5 @@
+lua <<EOF
+
 require("mason").setup()
 require("mason-lspconfig").setup()
 
@@ -72,3 +74,4 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 
+EOF

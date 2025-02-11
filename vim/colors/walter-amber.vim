@@ -43,7 +43,7 @@ hi SpecialComment  cterm=none ctermfg=0 ctermbg=166
 hi Debug         cterm=none ctermfg=226
 
 hi MatchParen   cterm=none ctermbg=9
-hi Underlined   cterm=none ctermfg=19
+hi Underlined   cterm=none ctermfg=33
 hi Ignore       cterm=none ctermfg=240
 hi Error        cterm=none ctermfg=15 ctermbg=160
 hi Todo         cterm=none ctermfg=0 ctermbg=226

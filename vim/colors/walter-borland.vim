@@ -1,22 +1,9 @@
-" ~/.vimcolors-borland
+" ~/.vim/colors/walter-borland.vim
 
 let g:colors_name = 'walter-borland'
 
-let &t_SI = "\<Esc>]12;green\x7"
-let &t_EI = "\<Esc>]12;red\x7"
-autocmd VimLeave * silent !echo -ne "\033]112\x7"
-
-set guicursor=n-v-c:block-Cursor
-set guicursor+=i:block-iCursor
-set guicursor+=a:blinkon0
-
 hi clear
 hi Normal		cterm=none ctermfg=Grey    ctermbg=DarkBlue
-
-" sadly this doesn't work for OSX Terminal
-" nor does it for MacVim
-hi Cursor       cterm=none ctermbg=Red ctermfg=White     guibg=Red guifg=White
-hi iCursor      cterm=none ctermbg=Green ctermfg=White   guibg=Green guifg=White
 
 hi Comment      cterm=none ctermfg=Grey gui=italic
 hi Constant     cterm=none ctermfg=White

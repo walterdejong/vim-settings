@@ -1,22 +1,9 @@
-" ~/.vimcolors-amber
+" ~/.vim/colors/walter-amber.vim
 
 let g:colors_name = 'walter-amber'
 
-let &t_SI = "\<Esc>]12;green\x7"
-let &t_EI = "\<Esc>]12;red\x7"
-autocmd VimLeave * silent !echo -ne "\033]112\x7"
-
-set guicursor=n-v-c:block-Cursor
-set guicursor+=i:block-iCursor
-set guicursor+=a:blinkon0
-
 hi clear
 hi Normal      cterm=none ctermfg=214 ctermbg=Black
-
-" sadly this doesn't work for OSX Terminal
-" nor does it for MacVim
-hi Cursor       ctermbg=160 cterm=none ctermfg=Black       guibg=Red guifg=Black
-hi iCursor      ctermbg=40 cterm=none ctermfg=Black     guibg=Green guifg=Black
 
 hi Comment      cterm=none ctermfg=172
 hi Constant     cterm=none ctermfg=226

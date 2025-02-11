@@ -1,22 +1,9 @@
-" ~/.vimcolors-light
+" ~/.vim/colors/walter-light.vim
 
 let g:colors_name = 'walter-light'
 
-let &t_SI = "\<Esc>]12;green\x7"
-let &t_EI = "\<Esc>]12;red\x7"
-autocmd VimLeave * silent !echo -ne "\033]112\x7"
-
-set guicursor=n-v-c:block-Cursor
-set guicursor+=i:block-iCursor
-set guicursor+=a:blinkon0
-
 hi clear
 hi Normal		cterm=none ctermfg=Black ctermbg=White
-
-" sadly this doesn't work for OSX Terminal
-" nor does it for MacVim
-hi Cursor       cterm=none ctermbg=Red ctermfg=Black       guibg=Red guifg=Black
-hi iCursor      cterm=none ctermbg=Green ctermfg=Black     guibg=Green guifg=Black
 
 hi Comment      cterm=none ctermfg=DarkGreen gui=italic
 hi Constant     cterm=none ctermfg=Black
@@ -43,7 +30,7 @@ hi Type         cterm=none ctermfg=DarkRed
 hi StorageClass cterm=none ctermfg=DarkRed
 hi Structure    cterm=none ctermfg=DarkRed
 hi Typedef      cterm=none ctermfg=DarkRed
-hi Special      cterm=none ctermfg=DarkCyan
+hi Special      cterm=none ctermfg=DarkBlue
 hi SpecialChar  cterm=none ctermfg=DarkBlue
 hi Tag          cterm=none ctermfg=DarkCyan
 hi Delimiter    cterm=none ctermfg=Black

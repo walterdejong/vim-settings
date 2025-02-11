@@ -3,6 +3,18 @@
 local global = vim.g
 local o = vim.opt
 
+vim.cmd([[
+    " cursor colors in insert mode / command mode
+    " this may or may not work depending on your Terminal program
+    let &t_SI = "\<Esc>]12;green\x7"
+    let &t_EI = "\<Esc>]12;red\x7"
+
+    " use a non-blinking block cursor, always
+    set guicursor=n-v-c:block-Cursor
+    set guicursor+=i:block-iCursor
+    set guicursor+=a:blinkon0
+]])
+
 -- Editor options
 
 o.compatible = false
@@ -23,13 +35,13 @@ o.incsearch = true
 o.hlsearch = true
 -- o.mouse = "a" -- Enable the use of the mouse. "a" you can use on all modes
 o.mouse = ""
-o.title = true -- When on, the title of the window will be set to the value of 'titlestring'
+o.title = false -- When on, the title of the window will be set to the value of 'titlestring'
 o.hidden = true -- When on a buffer becomes hidden when it is |abandon|ed
 o.ttimeoutlen = 0 -- The time in milliseconds that is waited for a key code or mapped key sequence to complete.
 o.wildmenu = true -- When 'wildmenu' is on, command-line completion operates in an enhanced mode.
-o.showcmd = true -- Show (partial) command in the last line of the screen. Set this option off if your terminal is slow.
+o.showcmd = false -- Show (partial) command in the last line of the screen. Set this option off if your terminal is slow.
 o.showmatch = false -- When a bracket is inserted, briefly jump to the matching one.
-o.inccommand = "split" -- When nonempty, shows the effects of :substitute, :smagic, :snomagic and user commands with the :command-preview flag as you type.
+o.inccommand = "" -- When nonempty, shows the effects of :substitute, :smagic, :snomagic and user commands with the :command-preview flag as you type.
 o.splitright = true
 o.splitbelow = true -- When on, splitting a window will put the new window below the current one
 o.backup = false

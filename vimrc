@@ -9,6 +9,7 @@
 "set t_Co=256
 
 set nocompatible
+set nomodeline
 
 " disable polyglot annoyance
 let g:python_highlight_space_errors = 0

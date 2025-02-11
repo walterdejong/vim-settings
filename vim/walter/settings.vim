@@ -12,6 +12,7 @@ set guicursor=n-v-c:block-Cursor
 set guicursor+=i:block-iCursor
 set guicursor+=a:blinkon0
 
+set backspace=indent,eol,start
 set number
 set norelativenumber
 set clipboard="unnamedplus"

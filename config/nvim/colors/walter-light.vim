@@ -11,99 +11,110 @@ set guicursor+=i:block-iCursor
 set guicursor+=a:blinkon0
 
 hi clear
-hi Normal		ctermfg=Black
+hi Normal		cterm=none ctermfg=Black ctermbg=White
 
 " sadly this doesn't work for OSX Terminal
 " nor does it for MacVim
-hi Cursor       ctermbg=Red ctermfg=Black       guibg=Red guifg=Black
-hi iCursor      ctermbg=Green ctermfg=Black     guibg=Green guifg=Black
+hi Cursor       cterm=none ctermbg=Red ctermfg=Black       guibg=Red guifg=Black
+hi iCursor      cterm=none ctermbg=Green ctermfg=Black     guibg=Green guifg=Black
 
-hi Comment      ctermfg=Green gui=italic
-hi Constant     ctermfg=Black
-hi String       ctermfg=Blue
-hi Character    ctermfg=Blue
-hi Number       ctermfg=Green
-hi Float        ctermfg=Green
-hi Boolean      ctermfg=Red
-hi Identifier   ctermfg=Black
-hi Function     ctermfg=Black
-hi Statement    ctermfg=Red
-hi Conditional  ctermfg=Red
-hi Repeat       ctermfg=Red
-hi Label        ctermfg=Red
-hi Operator     ctermfg=Black
-hi Keyword      ctermfg=Red
-hi Exception    ctermfg=Red
-hi PreProc      ctermfg=Red
-hi Include      ctermfg=Red
-hi Define       ctermfg=Red
-hi Macro        ctermfg=Red
-hi PreCondit    ctermfg=Red
-hi Type         ctermfg=Red
-hi StorageClass ctermfg=Red
-hi Structure    ctermfg=Red
-hi Typedef      ctermfg=Red
-hi Special      ctermfg=Cyan
-hi SpecialChar  ctermfg=Cyan
-hi Tag          ctermfg=Cyan
-hi Delimiter    ctermfg=Black
-hi SpecialComment   ctermfg=Green
-hi Debug        ctermfg=Black
-hi Underlined   ctermfg=Blue
-hi Ignore       ctermfg=Black
-hi Error        ctermfg=White ctermbg=Red
-hi Todo         ctermfg=Black ctermbg=Cyan
+hi Comment      cterm=none ctermfg=DarkGreen gui=italic
+hi Constant     cterm=none ctermfg=Black
+hi String       cterm=none ctermfg=DarkBlue
+hi Character    cterm=none ctermfg=DarkBlue
+hi Number       cterm=none ctermfg=DarkGreen
+hi Float        cterm=none ctermfg=DarkGreen
+hi Boolean      cterm=none ctermfg=DarkRed
+hi Identifier   cterm=none ctermfg=Black
+hi Function     cterm=none ctermfg=Black
+hi Statement    cterm=none ctermfg=DarkRed
+hi Conditional  cterm=none ctermfg=DarkRed
+hi Repeat       cterm=none ctermfg=DarkRed
+hi Label        cterm=none ctermfg=DarkRed
+hi Operator     cterm=none ctermfg=Black
+hi Keyword      cterm=none ctermfg=DarkRed
+hi Exception    cterm=none ctermfg=DarkRed
+hi PreProc      cterm=none ctermfg=DarkRed
+hi Include      cterm=none ctermfg=DarkRed
+hi Define       cterm=none ctermfg=DarkRed
+hi Macro        cterm=none ctermfg=Black
+hi PreCondit    cterm=none ctermfg=DarkRed
+hi Type         cterm=none ctermfg=DarkRed
+hi StorageClass cterm=none ctermfg=DarkRed
+hi Structure    cterm=none ctermfg=DarkRed
+hi Typedef      cterm=none ctermfg=DarkRed
+hi Special      cterm=none ctermfg=DarkCyan
+hi SpecialChar  cterm=none ctermfg=DarkBlue
+hi Tag          cterm=none ctermfg=DarkCyan
+hi Delimiter    cterm=none ctermfg=Black
+hi SpecialComment   cterm=none ctermfg=DarkGreen
+hi Debug        cterm=none ctermfg=Black
+hi Underlined   cterm=none ctermfg=DarkBlue
+hi Ignore       cterm=none ctermfg=Black
+hi Error        cterm=none ctermfg=White ctermbg=Red
+hi Todo         cterm=none ctermfg=Black ctermbg=DarkCyan
 
-hi LineNr		ctermfg=Cyan
-hi OverLength	ctermbg=Red ctermfg=Black
+hi LineNr		cterm=none ctermfg=DarkCyan
+hi OverLength	cterm=none ctermbg=Red ctermfg=Black
 
 " html codes are also used a lot in markdown syntax highlighting
-hi htmlH1		ctermfg=Blue
-hi htmlH2		ctermfg=Green
-hi htmlH3		ctermfg=Red
-hi htmlH4		ctermfg=Magenta
-hi htmlH5		ctermfg=Cyan
-" hi htmlH6		ctermfg=Red
-hi htmlLink		ctermfg=Blue
-hi htmlItalic	ctermfg=Green
-hi htmlBold		ctermfg=Red
-hi htmlBoldItalic	ctermfg=Green
+hi htmlH1		cterm=none ctermfg=DarkBlue
+hi htmlH2		cterm=none ctermfg=DarkGreen
+hi htmlH3		cterm=none ctermfg=DarkRed
+hi htmlH4		cterm=none ctermfg=Magenta
+hi htmlH5		cterm=none ctermfg=DarkCyan
+" hi htmlH6		cterm=none ctermfg=DarkRed
+hi htmlLink		cterm=none ctermfg=DarkBlue
+hi htmlItalic	cterm=none ctermfg=DarkGreen
+hi htmlBold		cterm=none ctermfg=DarkRed
+hi htmlBoldItalic	cterm=none ctermfg=DarkGreen
 
-hi markdownDelimiter		ctermfg=Black
-hi markdownRule				ctermfg=Black
-hi markdownHeadingRule		ctermfg=Black
-hi markdownUrl				ctermfg=Blue
-hi markdownUrlTitle			ctermfg=Blue
-hi markdownLink				ctermfg=Blue
-hi markdownLinkText			ctermfg=Blue
-hi markdownLinkTextDelimiter	ctermfg=Blue
-hi markdownLinkDelimiter	ctermfg=Blue
-hi markdownAutomaticLink	ctermfg=Blue
-hi markdownId				ctermfg=Red
-hi markdownIdDelimiter		ctermfg=Red
-hi markdownIdDeclaration	ctermfg=Red
-hi markdownCode				ctermfg=Green
-hi markdownCodeDelimiter	ctermfg=Green
-hi markdownBlockquote		ctermfg=Green
-hi markdownFootnote			ctermfg=Green
-hi markdownFootnoteDefinition	ctermfg=Green
+hi markdownDelimiter		cterm=none ctermfg=Black
+hi markdownRule				cterm=none ctermfg=Black
+hi markdownHeadingRule		cterm=none ctermfg=Black
+hi markdownUrl				cterm=none ctermfg=DarkBlue
+hi markdownUrlTitle			cterm=none ctermfg=DarkBlue
+hi markdownLink				cterm=none ctermfg=DarkBlue
+hi markdownLinkText			cterm=none ctermfg=DarkBlue
+hi markdownLinkTextDelimiter	cterm=none ctermfg=DarkBlue
+hi markdownLinkDelimiter	cterm=none ctermfg=DarkBlue
+hi markdownAutomaticLink	cterm=none ctermfg=DarkBlue
+hi markdownId				cterm=none ctermfg=DarkRed
+hi markdownIdDelimiter		cterm=none ctermfg=DarkRed
+hi markdownIdDeclaration	cterm=none ctermfg=DarkRed
+hi markdownCode				cterm=none ctermfg=DarkGreen
+hi markdownCodeDelimiter	cterm=none ctermfg=DarkGreen
+hi markdownBlockquote		cterm=none ctermfg=DarkGreen
+hi markdownFootnote			cterm=none ctermfg=DarkGreen
+hi markdownFootnoteDefinition	cterm=none ctermfg=DarkGreen
 
-hi objcType			ctermfg=Red
-hi objcDirective	ctermfg=Green
-hi objcScopeDecl	ctermfg=Red
+hi objcType			cterm=none ctermfg=DarkRed
+hi objcDirective	cterm=none ctermfg=DarkGreen
+hi objcScopeDecl	cterm=none ctermfg=DarkRed
 
 " unfortunately, somebody screwed this up in the latest vim
-" hi Visual       term=reverse cterm=reverse guibg=Grey
-hi Visual       ctermfg=Black ctermbg=Grey cterm=bold
-hi Pmenu        ctermfg=Black ctermbg=Cyan
-hi PmenuSel     ctermfg=White ctermbg=Blue
-hi Search       ctermfg=White ctermbg=Blue
-hi Directory    ctermfg=Red
+" hi Visual       term=reverse cterm=none cterm=reverse guibg=Grey
+hi Visual       cterm=none ctermfg=Black ctermbg=Grey
+hi Pmenu        cterm=none ctermfg=Black ctermbg=DarkCyan
+hi PmenuSel     cterm=none ctermfg=White ctermbg=DarkBlue
+hi Search       cterm=none ctermfg=White ctermbg=DarkBlue
+hi Directory    cterm=none ctermfg=DarkRed
 " foldcolumn is the left margin
-hi FoldColumn ctermfg=Black ctermbg=White
-hi SignColumn ctermbg=White
+hi FoldColumn cterm=none ctermfg=Black ctermbg=White
+hi SignColumn cterm=none ctermbg=White
 
 " ruler at 80 chars
 autocmd FileType md match OverLength /\%79v.*/
+
+" disable underline
+hi Underlined cterm=none
+hi CursorLineNr   cterm=none ctermfg=11 gui=none guifg=Yellow
+hi CursorLine     cterm=none guibg=Grey40
+hi TabLine        cterm=none ctermfg=15 ctermbg=242 gui=none guibg=DarkGrey
+hi DiagnosticUnderlineError cterm=none gui=none guisp=Red
+hi DiagnosticUnderlineWarn cterm=none gui=none guisp=Orange
+hi DiagnosticUnderlineInfo cterm=none gui=none guisp=LightBlue
+hi DiagnosticUnderlineHint cterm=none gui=none guisp=LightGrey
+hi DiagnosticUnderlineOk cterm=none gui=none guisp=LightGreen
 
 " EOB

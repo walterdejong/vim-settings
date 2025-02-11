@@ -1,0 +1,72 @@
+-- nvim/lua/walter/plugins/treesitter.lua
+
+-- sorry, treesitter requires nvim 0.10 or higher
+
+return {
+    "nvim-treesitter/nvim-treesitter",
+    event = { "BufReadPre", "BufNewFile" },
+    build = ":TSUpdate",
+    dependencies = {
+        "windwp/nvim-ts-autotag",
+    },
+    config = function()
+        local treesitter = require("nvim-treesitter.configs")
+
+        treesitter.setup({
+            highlight = {
+                enable = true,
+                additional_vim_regex_highlighting = false,
+            },
+            indent = { enable = true },
+            autotag = {
+                enable = true,
+            },
+            ensure_installed = {
+                "c",
+                "cpp",
+                "make",
+                "python",
+                "go",
+                "rust",
+                "bash",
+                "lua",
+                "json",
+                "yaml",
+                "toml",
+                "markdown",
+                "markdown_inline",
+                "html",
+                "css",
+                "javascript",
+                "typescript",
+                "tsx",
+                "vim",
+                "dockerfile",
+            },
+            sync_install = false,
+            auto_install = false,
+            ignore_install = { },
+            incremental_selection = {
+                enable = true,
+                keymaps = {
+                    init_selection = "<C-space>",
+                    node_incremental = "<C-space>",
+                    scope_incremental = false,
+                    node_decremental = "<bs>",
+                },
+            },
+            rainbow = {
+                enable = true,
+                disable = { "html" },
+                extended_mode = false,
+                max_file_lines = nil,
+            },
+            context_commentstring = {
+                enable = true,
+                enable_autocmd = false,
+            },
+        })
+    end,
+}
+
+-- EOB

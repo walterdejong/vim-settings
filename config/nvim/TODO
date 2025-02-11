@@ -1,0 +1,10 @@
+TODO
+
+* change vimrc.lua to settings.lua
+  - turn off annoying matching parens
+v change vimrc key mappings to maps.lua
+* change colorschemes (again!)
+* autocmd things for certain filetypes
+
+(in other words ... tons of work ... I just want to edit..!!)
+

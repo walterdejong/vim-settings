@@ -1,5 +1,8 @@
 -- nvim/init.lua
 
+-- for alternate roots set the runtimepath
+-- vim.opt.runtimepath:append(',/althome/walter/.config/nvim')
+
 -- lazy wants termguicolors, but it really doesn't work for my terminal programs
 -- so we switch it back later
 vim.opt.termguicolors = true

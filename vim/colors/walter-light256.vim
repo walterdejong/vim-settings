@@ -7,8 +7,8 @@ hi Normal      cterm=none ctermfg=Black ctermbg=White
 
 hi Comment      cterm=none ctermfg=22
 hi Constant     cterm=none ctermfg=0
-hi String       cterm=none ctermfg=12
-hi Character    cterm=none ctermfg=12
+hi String       cterm=none ctermfg=20
+hi Character    cterm=none ctermfg=20
 hi Number       cterm=none ctermfg=22
 hi Boolean      cterm=none ctermfg=88
 hi Float        cterm=none ctermfg=22
@@ -35,34 +35,34 @@ hi StorageClass cterm=none ctermfg=88
 hi Structure    cterm=none ctermfg=88
 hi Typedef      cterm=none ctermfg=88
 
-hi Special      cterm=none ctermfg=12
-hi SpecialChar  cterm=none ctermfg=12
-hi Tag          cterm=none ctermfg=15 ctermbg=12
+hi Special      cterm=none ctermfg=20
+hi SpecialChar  cterm=none ctermfg=20
+hi Tag          cterm=none ctermfg=15 ctermbg=20
 hi Delimiter    cterm=none ctermfg=0
 hi SpecialComment  cterm=none ctermfg=15 ctermbg=22
 hi Debug         cterm=none ctermfg=22
 
-hi Underlined   cterm=none ctermfg=12
+hi Underlined   cterm=none ctermfg=20
 hi Ignore       cterm=none ctermfg=240
 hi Error        cterm=none ctermfg=15 ctermbg=160
 hi Todo         cterm=none ctermfg=0 ctermbg=45
 
 hi LineNr		cterm=none ctermfg=32
-hi OverLength	cterm=none ctermfg=7 ctermbg=124
+hi OverLength	cterm=none ctermfg=7 ctermbg=204
 
 hi DiagnosticError cterm=none ctermfg=88
 hi DiagnosticWarn  cterm=none ctermfg=88
-hi DiagnosticInfo  cterm=none ctermfg=12
+hi DiagnosticInfo  cterm=none ctermfg=20
 hi DiagnosticHint  cterm=none ctermfg=22
 
 " html codes are also used a lot in markdown syntax highlighting
-hi htmlH1		cterm=none ctermfg=12
+hi htmlH1		cterm=none ctermfg=20
 hi htmlH2		cterm=none ctermfg=22
 hi htmlH3		cterm=none ctermfg=88
 hi htmlH4		cterm=none ctermfg=Magenta
 hi htmlH5		cterm=none ctermfg=Cyan
 " hi htmlH6		cterm=none ctermfg=Red
-hi htmlLink		cterm=none ctermfg=12
+hi htmlLink		cterm=none ctermfg=20
 hi htmlItalic	cterm=none ctermfg=22
 hi htmlBold		cterm=none ctermfg=88
 hi htmlBoldItalic	cterm=none ctermfg=22
@@ -70,13 +70,13 @@ hi htmlBoldItalic	cterm=none ctermfg=22
 hi markdownDelimiter		cterm=none ctermfg=Black
 hi markdownRule				cterm=none ctermfg=Black
 hi markdownHeadingRule		cterm=none ctermfg=Black
-hi markdownUrl				cterm=none ctermfg=12
-hi markdownUrlTitle			cterm=none ctermfg=12
-hi markdownLink				cterm=none ctermfg=12
-hi markdownLinkText			cterm=none ctermfg=12
-hi markdownLinkTextDelimiter	cterm=none ctermfg=12
-hi markdownLinkDelimiter	cterm=none ctermfg=12
-hi markdownAutomaticLink	cterm=none ctermfg=12
+hi markdownUrl				cterm=none ctermfg=20
+hi markdownUrlTitle			cterm=none ctermfg=20
+hi markdownLink				cterm=none ctermfg=20
+hi markdownLinkText			cterm=none ctermfg=20
+hi markdownLinkTextDelimiter	cterm=none ctermfg=20
+hi markdownLinkDelimiter	cterm=none ctermfg=20
+hi markdownAutomaticLink	cterm=none ctermfg=20
 hi markdownId				cterm=none ctermfg=88
 hi markdownIdDelimiter		cterm=none ctermfg=88
 hi markdownIdDeclaration	cterm=none ctermfg=88

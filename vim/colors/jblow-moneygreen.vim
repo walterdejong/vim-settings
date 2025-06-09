@@ -13,10 +13,10 @@ hi Normal		cterm=none ctermfg=144 ctermbg=none
 
 hi Comment      cterm=none ctermfg=34 gui=italic
 hi Constant     cterm=none ctermfg=144
-hi String       cterm=none ctermfg=45
-hi Character    cterm=none ctermfg=45
-hi Number       cterm=none ctermfg=87
-hi Float        cterm=none ctermfg=87
+hi String       cterm=none ctermfg=44
+hi Character    cterm=none ctermfg=44
+hi Number       cterm=none ctermfg=48
+hi Float        cterm=none ctermfg=48
 hi Boolean      cterm=none ctermfg=White
 hi Identifier   cterm=none ctermfg=144
 hi Function     cterm=none ctermfg=144

@@ -33,7 +33,7 @@ hi Type         cterm=none ctermfg=DarkRed
 hi StorageClass cterm=none ctermfg=DarkRed
 hi Structure    cterm=none ctermfg=DarkRed
 hi Typedef      cterm=none ctermfg=DarkRed
-hi Special      cterm=none ctermfg=DarkBlue
+hi Special      cterm=none ctermfg=DarkRed
 hi SpecialChar  cterm=none ctermfg=DarkBlue
 hi Tag          cterm=none ctermfg=DarkCyan
 hi Delimiter    cterm=none ctermfg=none

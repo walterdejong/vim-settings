@@ -33,7 +33,7 @@ hi Type         cterm=none ctermfg=White
 hi StorageClass cterm=none ctermfg=White
 hi Structure    cterm=none ctermfg=White
 hi Typedef      cterm=none ctermfg=White
-hi Special      cterm=none ctermfg=Cyan
+hi Special      cterm=none ctermfg=White
 hi SpecialChar  cterm=none ctermfg=Cyan
 hi Tag          cterm=none ctermfg=Cyan
 hi Delimiter    cterm=none ctermfg=none

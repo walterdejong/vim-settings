@@ -11,7 +11,7 @@ let g:colors_name = 'jblow-moneygreen'
 hi clear
 hi Normal		cterm=none ctermfg=144 ctermbg=none
 
-hi Comment      cterm=none ctermfg=34 gui=italic
+hi Comment      cterm=none ctermfg=40 gui=italic
 hi Constant     cterm=none ctermfg=144
 hi String       cterm=none ctermfg=44
 hi Character    cterm=none ctermfg=44
@@ -40,7 +40,7 @@ hi Special      cterm=none ctermfg=42
 hi SpecialChar  cterm=none ctermfg=Cyan
 hi Tag          cterm=none ctermfg=Cyan
 hi Delimiter    cterm=none ctermfg=144
-hi SpecialComment   cterm=none ctermfg=34
+hi SpecialComment   cterm=none ctermfg=40
 hi Debug        cterm=none ctermfg=144
 hi Underlined   cterm=none ctermfg=Cyan
 hi Ignore       cterm=none ctermfg=144

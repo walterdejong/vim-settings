@@ -3,7 +3,7 @@
 let g:colors_name = 'walter-light'
 
 hi clear
-hi Normal		cterm=none ctermfg=Black ctermbg=White
+hi Normal		cterm=none ctermfg=none ctermbg=none
 
 hi Comment      cterm=none ctermfg=DarkGreen gui=italic
 hi Constant     cterm=none ctermfg=Black

@@ -1,19 +1,25 @@
-" ~/.vim/colors/walter-dark.vim
+" ~/.vim/colors/jblow-moneygreen.vim
+"
+" * this uses the background and foreground color of the Terminal application
+" * background should be a dark green like #062626
+"   - there is no good emulation of that color in xterm-256
+" * foreground should be a light skin color like #d3b58c
+"
 
-let g:colors_name = 'walter-dark'
+let g:colors_name = 'jblow-moneygreen'
 
 hi clear
 hi Normal		cterm=none ctermfg=none ctermbg=none
 
-hi Comment      cterm=none ctermfg=DarkGreen gui=italic
-hi Constant     cterm=none ctermfg=Yellow
-hi String       cterm=none ctermfg=Cyan
-hi Character    cterm=none ctermfg=Cyan
-hi Number       cterm=none ctermfg=White
-hi Float        cterm=none ctermfg=White
+hi Comment      cterm=none ctermfg=40 gui=italic
+hi Constant     cterm=none ctermfg=144
+hi String       cterm=none ctermfg=44
+hi Character    cterm=none ctermfg=44
+hi Number       cterm=none ctermfg=48
+hi Float        cterm=none ctermfg=48
 hi Boolean      cterm=none ctermfg=White
-hi Identifier   cterm=none ctermfg=Grey
-hi Function     cterm=none ctermfg=Grey
+hi Identifier   cterm=none ctermfg=144
+hi Function     cterm=none ctermfg=144
 hi Statement    cterm=none ctermfg=White
 hi Conditional  cterm=none ctermfg=White
 hi Repeat       cterm=none ctermfg=White
@@ -21,27 +27,27 @@ hi Label        cterm=none ctermfg=White
 hi Operator     cterm=none ctermfg=White
 hi Keyword      cterm=none ctermfg=White
 hi Exception    cterm=none ctermfg=White
-hi PreProc      cterm=none ctermfg=White
-hi Include      cterm=none ctermfg=White
-hi Define       cterm=none ctermfg=White
-hi Macro        cterm=none ctermfg=Yellow
+hi PreProc      cterm=none ctermfg=42
+hi Include      cterm=none ctermfg=42
+hi Define       cterm=none ctermfg=42
+hi Macro        cterm=none ctermfg=144
 hi PreCondit    cterm=none ctermfg=White
-hi Type         cterm=none ctermfg=White
+hi Type         cterm=none ctermfg=42
 hi StorageClass cterm=none ctermfg=White
 hi Structure    cterm=none ctermfg=White
-hi Typedef      cterm=none ctermfg=White
-hi Special      cterm=none ctermfg=Cyan
+hi Typedef      cterm=none ctermfg=42
+hi Special      cterm=none ctermfg=42
 hi SpecialChar  cterm=none ctermfg=Cyan
 hi Tag          cterm=none ctermfg=Cyan
-hi Delimiter    cterm=none ctermfg=Grey
-hi SpecialComment   cterm=none ctermfg=Green
-hi Debug        cterm=none ctermfg=Grey
+hi Delimiter    cterm=none ctermfg=144
+hi SpecialComment   cterm=none ctermfg=40
+hi Debug        cterm=none ctermfg=144
 hi Underlined   cterm=none ctermfg=Cyan
-hi Ignore       cterm=none ctermfg=Grey
+hi Ignore       cterm=none ctermfg=144
 hi Error        cterm=none ctermfg=White ctermbg=Red
 hi Todo         cterm=none ctermfg=Black ctermbg=Yellow
 
-hi LineNr		cterm=none ctermfg=Yellow
+hi LineNr		cterm=none ctermfg=none
 hi OverLength	cterm=none ctermbg=red ctermfg=white
 
 " html codes are also used a lot in markdown syntax highlighting
@@ -79,14 +85,14 @@ hi objcType			cterm=none ctermfg=Yellow
 hi objcDirective	cterm=none ctermfg=Cyan
 hi objcScopeDecl	cterm=none ctermfg=Cyan
 
-hi Visual       cterm=none ctermfg=Black ctermbg=Grey
+hi Visual       cterm=none ctermfg=none ctermbg=Blue
 hi Pmenu        cterm=none ctermfg=Black ctermbg=Cyan
 hi PmenuSel     cterm=none ctermfg=White ctermbg=Blue
 hi Search       cterm=none ctermfg=White ctermbg=Blue
 hi Directory    cterm=none ctermfg=Yellow
 " foldcolumn is the left margin
-hi FoldColumn cterm=none ctermfg=Black ctermbg=Black
-hi SignColumn cterm=none ctermbg=Black
+hi FoldColumn cterm=none ctermfg=Black ctermbg=none
+hi SignColumn cterm=none ctermbg=none
 
 " ruler at 80 chars
 autocmd FileType md match OverLength /\%79v.*/

@@ -1,6 +1,6 @@
 " ~/.vim/colors/jblow-moneygreen.vim
 "
-" * this uses the background and foreground color of the Terminal application
+" * this uses the background color of the Terminal application
 " * background should be a dark green like #062626
 "   - there is no good emulation of that color in xterm-256
 " * foreground should be a light skin color like #d3b58c
